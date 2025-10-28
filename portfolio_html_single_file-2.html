@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfólio — Elder Lima</title>
+  <style>
+    body {margin:0; font-family: 'Inter', sans-serif; background:#0a0a0a; color:#eee;}
+    a{text-decoration:none;color:inherit}
+    header{position:sticky;top:0;background:#0d0d0d;border-bottom:1px solid #222;padding:12px 24px;display:flex;justify-content:space-between;align-items:center;z-index:10}
+    header nav a{margin-left:20px;color:#aaa;font-size:14px}
+    header nav a:hover{color:#fff}
+    .container{max-width:1100px;margin:auto;padding:40px 20px}
+    h1,h2,h3{font-weight:600;margin:0 0 12px}
+    .hero{padding:60px 0;text-align:left}
+    .hero h1{font-size:42px;color:#fff}
+    .hero p{color:#aaa;max-width:600px}
+    .btn{background:linear-gradient(135deg,#8b5cf6,#22d3ee);color:#0a0a0a;font-weight:600;padding:10px 20px;border-radius:999px;display:inline-block;margin-top:20px}
+    .section{padding:50px 0}
+    .grid{display:grid;gap:24px}
+    .projects{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+    .card{background:#121212;border:1px solid #222;border-radius:16px;overflow:hidden;transition:.3s}
+    .card:hover{transform:translateY(-4px);box-shadow:0 10px 25px rgba(0,0,0,.4)}
+    .card img{width:100%;height:auto;display:block}
+    .card .content{padding:16px}
+    .card h3{font-size:16px;color:#fff;margin-bottom:6px}
+    .card p{font-size:14px;color:#aaa;margin:0}
+    footer{border-top:1px solid #222;text-align:center;color:#666;padding:20px;font-size:13px}
+  </style>
+</head>
+<body>
+  <header>
+    <div><strong>Elder Lima</strong></div>
+    <nav>
+      <a href="#servicos">Serviços</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="container hero" id="home">
+      <h1>Engenheiro de Áudio & FOH</h1>
+      <p>12+ anos mixando ao vivo e em estúdio. Experiência com Exaltasamba, Kevinho, Restart, Maneva e Sambô. Foco em inteligibilidade, impacto e consistência de show para show.</p>
+      <a href="#contato" class="btn">Entrar em contato</a>
+    </section>
+
+    <section class="container section" id="projetos">
+      <h2>Projetos Recentes</h2>
+      <div class="grid projects">
+        <div class="card">
+          <img src="foto1.jpg" alt="Rodeo festival">
+          <div class="content">
+            <h3>Rodeo Festival — FOH com DiGiCo SD12</h3>
+            <p>Técnico de PA / Recording</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="foto2.jpg" alt="Cisco Summit">
+          <div class="content">
+            <h3>Cisco Summit — Mix PA e conferência corporativa</h3>
+            <p>FOH Engineer</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="foto3.jpg" alt="Montagem de palco">
+          <div class="content">
+            <h3>Montagem de palco — L-Acoustics e grid estrutural</h3>
+            <p>System Tech</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="foto4.jpg" alt="Atendimento ao Mazzei — Dinho Ouro Preto">
+          <div class="content">
+            <h3>Atendimento ao Mazzei — Dinho Ouro Preto</h3>
+            <p>Atendimento Técnico / Show</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="foto5.jpg" alt="Anima Friends">
+          <div class="content">
+            <h3>Anima Friends — Operação de áudio e iluminação SRG Eventos</h3>
+            <p>System & FOH</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="foto6.jpg" alt="Paytrack Experience">
+          <div class="content">
+            <h3>Paytrack Experience — Corporate event mix setup</h3>
+            <p>FOH Engineer</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="foto7.jpg" alt="Stage Setup">
+          <div class="content">
+            <h3>Stage Setup — RF racks e sistema de monitor in-ear</h3>
+            <p>Monitor Engineer</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="foto8.jpg" alt="Maneva">
+          <div class="content">
+            <h3>Maneva — Monitoração Yamaha CL com plugins UA</h3>
+            <p>Monitor Engineer</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container section" id="sobre">
+      <h2>Sobre</h2>
+      <p>Técnico de áudio com foco em FOH e System Tech. Atuação em shows de grande porte, corridas e rodeios. Experiência com consoles Yamaha CL/QL/Rivage e DiGiCo SD/Quantum, integrações Dante/MADI e alinhamentos com Smaart. Busco mixes que traduzem o artista, com graves controlados e vocais sempre na frente.</p>
+    </section>
+
+    <section class="container section" id="contato">
+      <h2>Contato</h2>
+      <p>📍 São Paulo, BR<br>
+         📞 <a href="tel:+5573982311814">+55 73 982311814</a><br>
+         ✉️ <a href="mailto:elder.apk@gmail.com">elder.apk@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Elder Lima — Eng. de Áudio • São Paulo — Touring Brasil
+  </footer>
+</body>
+</html>
